@@ -1,0 +1,35 @@
+.boxS{
+    background-color: brown;
+    font-size: 10px;
+    text-align: center;
+    display: none;
+    color: aliceblue;
+}
+
+@media (max-width:500px){ 
+.box{
+    display: block;
+    /* border: 20px solid red; */
+background-color: blueviolet;
+}
+} 
+@media (max-width:800px){ 
+    .box1{
+        display: block;
+        /* border: 20px solid red; */
+    background-color: blueviolet;
+            }
+    } 
+@media (max-width:1000px){ 
+    .box2{
+        display: block;
+        /* border: 20px solid red; */
+    background-color: blueviolet;
+            }
+    } @media (max-width:1200px){ 
+        .box3{
+            display: block;
+            /* border: 20px solid red; */
+        background-color: blueviolet;
+                        }
+        } 
